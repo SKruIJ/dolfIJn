@@ -1,0 +1,95 @@
+/****************************************
+dolfIJn
+SKruIJ 2016-11-28
+/screens/default/css/login.css
+login css
+ü
+****************************************/
+
+html {
+	position: relative;
+	min-height: 100%;
+	height: 100%;
+}
+
+body {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #046598;
+	height: 100%;
+}
+
+.btn-primary {
+	background-color: #046598;
+	color: #ffffff;
+	border-color: #ffffff;
+}
+.btn-primary:hover {
+	background-color: #ffffff;
+	color: #046598;
+}
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  color: #eeeeee;
+  background-color: #046598;
+}
+
+body > .container {
+  padding: 30px 15px 0;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
